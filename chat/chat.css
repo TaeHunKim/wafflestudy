@@ -40,9 +40,9 @@ body{height : 100%; margin : 0; padding : 0;}
   position : relative;
   /*top : 10px;
   left : 10px;*/
-  margin : 10px -10px 5px 10px;
+  margin : 10px 0px 5px 10px;
   height : auto;
-  padding : 5px 9px;
+  padding : 5px 9px 5px 9px;
   width : auto;
   max-width : 70%;
   font-size : 10pt;
@@ -52,7 +52,7 @@ body{height : 100%; margin : 0; padding : 0;}
   z-index : 2;
   box-shadow: 5px 5px black;
 }
-.youtime{
+.youextra{
   float : left;
   position : relative;
   /*top : 16px;
@@ -60,14 +60,28 @@ body{height : 100%; margin : 0; padding : 0;}
   margin-left : -5px;*/
   margin : 16px 0px 0px 0px;
   height : auto;
-  padding : 3px 5px 3px 20px;
+  padding : 3px 5px 3px 5px;
   width : 80px;
   font-size : 5pt;
   background-color : #5C7A99;
   border-radius : 3px;
   z-index : 1;
-  color : white;
+ /* color : white;*/
   opacity : 0.6;
+}
+.youtime{
+  float : left;
+  margin : 0;
+  padding : 0 5px 0 5px;
+  font-size : 5pt;
+  color : white;
+}
+.younum{
+  float : right;
+  margin : 0;
+  padding : 0;
+  font-size : 5pt;
+  color : yellow;
 }
 .mechat{
   float : right;
@@ -89,9 +103,9 @@ body{height : 100%; margin : 0; padding : 0;}
   position : relative;
  /* top : 10px;
   right : 10px;*/
-  margin : 10px 10px 5px -10px; 
+  margin : 10px 10px 5px 0px; 
   height : auto;
-  padding : 5px 9px;
+  padding : 5px 9px 5px 9px;
   width : auto;
   max-width : 70%;
   font-size : 10pt;
@@ -101,7 +115,7 @@ body{height : 100%; margin : 0; padding : 0;}
   z-index : 2;
   box-shadow: -5px 5px black;
 }
-.metime{
+.meextra{
   float : right;
   position : relative;
  /* top : 16px;
@@ -109,7 +123,7 @@ body{height : 100%; margin : 0; padding : 0;}
   margin-right : -5px;*/
   margin : 16px 0px 0px 0px;
   height : auto;
-  padding : 3px 20px 3px 5px;
+  padding : 3px 5px 3px 5px;
   width : 80px;
   font-size : 5pt;
   background-color : #5C7A99;
@@ -118,4 +132,18 @@ body{height : 100%; margin : 0; padding : 0;}
   color : white;
   text-align : right;
   opacity : 0.6;
+}
+.metime{
+  float : right;
+  margin : 0;
+  padding : 0 5px 0 5px;
+  font-size : 5pt;
+  color : white;
+}
+.menum{
+  float : left;
+  margin : 0;
+  padding : 0;
+  font-size : 5pt;
+  color : yellow;
 }
