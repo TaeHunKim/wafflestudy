@@ -52,6 +52,7 @@ body{height : 100%; margin : 0; padding : 0;}
   border-radius : 3px;
   z-index : 2;
   box-shadow: 5px 5px black;
+  word-wrap : break-word
 }
 .youextra{
   float : left;
@@ -116,6 +117,7 @@ body{height : 100%; margin : 0; padding : 0;}
   border-radius : 3px;
   z-index : 2;
   box-shadow: -5px 5px black;
+  word-wrap : break-word
 }
 .meextra{
   float : right;
