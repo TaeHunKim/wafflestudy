@@ -1,0 +1,81 @@
+#title{
+  height : 20px;
+  margin : 10px;
+  font-family : "맑은고딕";
+  font-size : 20pt;
+}
+
+.bar{
+  float : left;
+  width : 200px;
+  height : 380px;
+  margin : 20px;
+  background-color : pink;
+}
+
+#plate1{
+  width : 20px;
+  height : 40px;
+  margin : 10px 10px 10px 90px;
+  background-color : black;
+  color : white;
+  font-size : 20pt;
+  text-align:center
+  font-family : "맑은고딕";
+  padding-top : 10px;
+}
+#plate2{
+  width : 40px;
+  height : 40px;
+  margin : 10px 10px 10px 80px;
+  background-color : black;
+  color : white;
+  font-size : 20pt;
+  font-family : "맑은고딕";
+  text-align:center;
+  padding-top : 10px;
+}
+#plate3{
+  width : 60px;
+  height : 40px;
+  margin : 10px 10px 10px 70px;
+  background-color : black;
+  color : white;
+  font-size : 20pt;
+  font-family : "맑은고딕";
+  text-align:center;
+  padding-top : 10px;
+}
+#plate4{
+  width : 80px;
+  height : 40px;
+  margin : 10px 10px 10px 60px;
+  background-color : black;
+  color : white;
+  font-size : 20pt;
+  font-family : "맑은고딕";
+  text-align:center;
+  padding-top : 10px;
+}
+#plate5{
+  width : 100px;
+  height : 40px;
+  margin : 10px 10px 10px 50px;
+  background-color : black;
+  color : white;
+  font-size : 20pt;
+  font-family : "맑은고딕";
+  text-align:center;
+  padding-top : 10px;
+}
+#plate6{
+  width : 120px;
+  height : 40px;
+  margin : 10px 10px 10px 40px;
+  background-color : black;
+  color : white;
+  font-size : 20pt;
+  font-family : "맑은고딕";
+  text-align:center;
+  padding-top : 10px;
+}
