@@ -1,7 +1,16 @@
+/* IE 9 does not support @font-face within @media */
+/*@media all and (min-width:768px) {*/
+  @font-face{
+    font-family:ng;
+    src:url(NanumGothic.eot);
+    src:local(※), url(NanumGothic.woff) format('woff');
+  }
+/*}*/
+/*[출처] 나눔폰트 웹서버에서 적용하는 방법 |작성자 다시쓴다*/
 #title{
   height : 20px;
   margin : 10px;
-  font-family : "맑은고딕";
+  font-family : "ng";
   font-size : 20pt;
 }
 
@@ -13,69 +22,25 @@
   background-color : pink;
 }
 
-#plate1{
-  width : 20px;
+
+.plate{
+  position : relative;
   height : 40px;
-  margin : 10px 10px 10px 90px;
+  margin : 10px;
   background-color : black;
   color : white;
   font-size : 20pt;
-  text-align:center
-  font-family : "맑은고딕";
+  text-align:center;
+  font-family : "ng";
   padding-top : 10px;
 }
-#plate2{
-  width : 40px;
-  height : 40px;
-  margin : 10px 10px 10px 80px;
-  background-color : black;
-  color : white;
+
+#status{
+  height : 20px;
+  width : 720px;
+  margin : 10px;
+  font-family : "ng";
   font-size : 20pt;
-  font-family : "맑은고딕";
-  text-align:center;
-  padding-top : 10px;
-}
-#plate3{
-  width : 60px;
-  height : 40px;
-  margin : 10px 10px 10px 70px;
-  background-color : black;
-  color : white;
-  font-size : 20pt;
-  font-family : "맑은고딕";
-  text-align:center;
-  padding-top : 10px;
-}
-#plate4{
-  width : 80px;
-  height : 40px;
-  margin : 10px 10px 10px 60px;
-  background-color : black;
-  color : white;
-  font-size : 20pt;
-  font-family : "맑은고딕";
-  text-align:center;
-  padding-top : 10px;
-}
-#plate5{
-  width : 100px;
-  height : 40px;
-  margin : 10px 10px 10px 50px;
-  background-color : black;
-  color : white;
-  font-size : 20pt;
-  font-family : "맑은고딕";
-  text-align:center;
-  padding-top : 10px;
-}
-#plate6{
-  width : 120px;
-  height : 40px;
-  margin : 10px 10px 10px 40px;
-  background-color : black;
-  color : white;
-  font-size : 20pt;
-  font-family : "맑은고딕";
-  text-align:center;
-  padding-top : 10px;
+  text-align : center;
+  clear : both;
 }
