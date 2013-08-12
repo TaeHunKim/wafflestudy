@@ -8,10 +8,12 @@
 @font-face{
     font-family:Arial;
     src:url(arial.ttf);
+    format('embedded-opentype');
 }
 @font-face{
     font-family:Monaco;
     src:url(MONACO.TTF);
+    format('embedded-opentype');
 }
 /*}*/
 /*[출처] 나눔폰트 웹서버에서 적용하는 방법 |작성자 다시쓴다*/
