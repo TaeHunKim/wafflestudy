@@ -1,0 +1,74 @@
+/* IE 9 does not support @font-face within @media */
+/*@media all and (min-width:768px) {*/
+@font-face{
+    font-family:ng;
+    src:url(NanumGothic.eot);
+    src:local(※), url(NanumGothic.woff) format('woff');
+}
+@font-face{
+    font-family:Arial;
+    src:url(arial.ttf);
+}
+@font-face{
+    font-family:Monaco;
+    src:url(MONACO.ttf);
+}
+/*}*/
+/*[출처] 나눔폰트 웹서버에서 적용하는 방법 |작성자 다시쓴다*/
+#fn{
+  display : none;
+}
+.content{
+  width : 800px;
+  margin : 5%;
+}
+h2{
+  font-family : "Arial";
+  font-size : 20pt;
+  color : #990000;
+}
+h3{
+  font-family : "Monaco";
+}
+.problem{
+  position : relative;
+  clear : both;
+  font-family : "ng";
+  padding : 10px;
+  outline-style : solid;
+  outline-width : thin;
+  outline-color : #666699;
+}
+.answer{
+  position : relative;
+  width : auto;
+ /* float : left;*/
+  font-family : "ng";
+  padding : 10px;
+  outline-style : solid;
+  outline-width : thin;
+  outline-color : #666699;
+}
+#left{
+  FLoat : left;
+  text-align : left;
+  width : 33%;
+  font-family : "ng";
+}
+#mid{
+  FLoat : left;
+  text-align : center;
+  width : 33%;
+  font-family : "ng";
+}
+#right{
+  Float : right;
+  text-align : right;
+  width : 33%;
+  font-family : "ng";
+}
+#other{
+  position : relative;
+  margin : 10px;
+  height : 20px;
+}

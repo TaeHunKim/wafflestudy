@@ -1,0 +1,34 @@
+/* IE 9 does not support @font-face within @media */
+/*@media all and (min-width:768px) {*/
+@font-face{
+    font-family:Trebuchet MS;
+    src:url(trebuc.ttf);
+    /*src:local(※), url(NanumGothic.woff) format('woff');*/
+}
+/*}*/
+/*[출처] 나눔폰트 웹서버에서 적용하는 방법 |작성자 다시쓴다*/
+body {
+  font: 90% "Trebuchet MS", sans-serif;
+}
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0px;
+  border-color: gray;
+}
+tr{
+  padding: 2px;
+  border: 1px solid #bbb;
+}
+td{
+  padding: 2px;
+  border: 1px solid #bbb;
+}
+th {
+  color: #666;
+  background-color: #eee;
+  text-align: center;
+  font-weight: bold;
+  padding: 2px;
+  border: 1px solid #bbb;
+}
