@@ -7,12 +7,12 @@
 }
 @font-face{
     font-family:Arial;
-    src:url(arial.ttf);
+    src:url(arial.eot);
     format('embedded-opentype');
 }
 @font-face{
     font-family:Monaco;
-    src:url(MONACO.TTF);
+    src:url(MONACO.eot);
     format('embedded-opentype');
 }
 /*}*/

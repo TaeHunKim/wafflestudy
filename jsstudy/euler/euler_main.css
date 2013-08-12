@@ -2,7 +2,8 @@
 /*@media all and (min-width:768px) {*/
 @font-face{
     font-family:Trebuchet MS;
-    src:url(trebuc.ttf);
+    src:url(trebuc.eot);
+    format('embedded-opentype');
     /*src:local(※), url(NanumGothic.woff) format('woff');*/
 }
 /*}*/
