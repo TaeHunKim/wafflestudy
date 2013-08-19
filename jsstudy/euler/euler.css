@@ -41,6 +41,10 @@ h3{
   outline-width : thin;
   outline-color : #666699;
 }
+.toggle{
+  font-style : italic;
+  font-weight : bold;
+}
 .answer{
   position : relative;
   width : auto;
