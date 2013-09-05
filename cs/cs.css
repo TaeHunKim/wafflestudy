@@ -1,0 +1,28 @@
+/* IE 9 does not support @font-face within @media */
+/*@media all and (min-width:768px) {*/
+  @font-face{
+    font-family:ng;
+    src:url(NanumGothic.eot);
+    src:local(※), url(NanumGothic.woff) format('woff');
+  }
+/*}*/
+
+.added{
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  width : 200px;
+  height : 200px;
+  background-color : white;
+  border :1px solid black;
+  z-index : 1;
+}
+
+.resize{
+  width : 10px;
+  height : 10px;
+  background-image : url('resize.png');
+  background-repeat:no-repeat;
+  position : relative;
+  z-index : 4;
+}
